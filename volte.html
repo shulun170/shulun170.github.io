@@ -7,6 +7,7 @@
 		<meta http-equiv="Cache-Control" content="no-siteapp">
 		<meta name="mobile-web-app-capable" content="yes">
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/layui.css"  media="all">
 		<title>网络常见问题服务指南</title>	<!-- 网页名称-->
 		<style type="text/css">
 			body{	margin:0;
@@ -38,11 +39,13 @@
 					color:white;				/*按钮字体颜色：白色*/
 					-webkit-text-stroke:1px #00BFFF;	/*按钮字体描边：粗细 颜色*/
 				}
-			footer{		color:gray;				/*底部文字颜色：灰色*/
+			footer{	color:gray;				/*底部文字颜色：灰色*/
 					font-size:10px;				/*底部文字大小*/
 					text-align:center;			/*底部文字居中*/
 					height:30px;				/*底部文字区域高度*/
+					
 					}	
+			
 			
 		</style>
 	</head>
@@ -51,71 +54,177 @@
 		<div class="title">
 			<h1>网络常见问题服务指南</h1>	<!--大标题-->
 		</div>
-			<div class="main">
-				<div>
-					<div style="text-align: center;">
-						<div>
-							<h3>一、打电话听不清楚怎么办</h3>	<!--小标题-->
-						</div>
-							<div class="box" onclick="window.open('video/安卓开启volte.mp4','_self')">	<!--链接到视频-->
-							
-								安卓开启Volte	<!--按钮名称-->
-						
+
+	<div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+		<ul class="layui-tab-title">
+			<li class="layui-this">手机业务</li>
+			<li>宽带上网</li>
+			<li>互联网电视</li>
+		</ul>
+		<div class="layui-tab-content" style="height: 100px;">
+			<div class="layui-tab-item layui-show">
+				<div class="main">
+					<div>
+						<div style="text-align: center;">
+							<div>
+								<h3>一、打电话听不清楚怎么办</h3>	<!--小标题-->
 							</div>
-		
+							<div class="box" onclick="window.open('video/安卓开启volte.mp4','_self')">	<!--链接到视频-->
+
+								安卓开启Volte	<!--按钮名称-->
+
+							</div>
+
 							<br>
 
 							<div class="box" onclick="window.open('video/IOS开启volte.mp4','_self')">	<!--链接到视频-->
-				
+
 								IOS开启Volte	<!--按钮名称-->
-						
+
 							</div>
 
 						</div>
-					<div style="text-align: center;;margin-top: 50px;">
-						<div>
-							<h3>二、5G网络问题</h3>	<!--小标题-->
-						</div>
+						<div style="text-align: center;;margin-top: 50px;">
+							<div>
+								<h3>二、5G网络问题</h3>	<!--小标题-->
+							</div>
 							<div class="box" onclick="window.open('video/打开5G上网开关.mp4','_self')">	<!--链接到视频-->
-							
+
 								5G手机用不上5G网络怎么办	<!--按钮名称-->
-								
+
 							</div>
 							<br>
 							<div class="box" onclick="window.open('video/5G手机比4G更费流量吗？.mp4','_self')">	<!--链接到视频-->
-							
+
 								5G手机比4G更费流量吗	<!--按钮名称-->
-								
+
 							</div>
-						</div>	
-					<div style="text-align: center;;margin-top: 50px;">
-						<div>
-							<h3>三、手机常见问题</h3>	<!--小标题-->
 						</div>
-						
+						<div style="text-align: center;;margin-top: 50px;">
+							<div>
+								<h3>三、手机常见问题</h3>	<!--小标题-->
+							</div>
+
 							<div class="box" onclick="window.open('video/手机卡顿怎么办.mp4','_self')">	<!--链接到视频-->
-							
+
 								手机卡顿怎么办		<!--按钮名称-->
 							</div>
 						</div>
-					<div style="text-align: center;;margin-top: 50px;">
-						<div>
-							<h3>四、基站科普小知识</h3>	<!--小标题-->
-						</div>
-							<div class="box" onclick="window.open('video/基站真的有辐射吗.mp4','_self')">	<!--链接到视频-->
-							
-								5G基站辐射会更大吗	<!--按钮名称-->
-								
+						<div style="text-align: center;;margin-top: 50px;">
+							<div>
+								<h3>四、基站科普小知识</h3>	<!--小标题-->
 							</div>
+							<div class="box" onclick="window.open('video/基站真的有辐射吗.mp4','_self')">	<!--链接到视频-->
+
+								5G基站辐射会更大吗	<!--按钮名称-->
+
+							</div>
+						</div>
 					</div>
+
+
 				</div>
-						
-				
+				<br>	<!--空行-->
+				<br>	<!--空行-->
+				<footer>中国移动-网络常见问题服务指南</footer>	<!--底部文字-->
+			</div>
+			<div class="layui-tab-item">
+				<div class="main">
+					<div>
+						<div style="text-align: center;">
+							<div>
+								<h3>一、宽带无法上网怎么办</h3>	<!--小标题-->
+							</div>
+							<div class="box" onclick="window.open('video/安卓开启volte.mp4','_self')">	<!--链接到视频-->
+
+								xxxxxx	<!--按钮名称-->
+
+							</div>
+
+						</div>
+					</div>
+
+
+				</div>
+				<br>	<!--空行-->
+				<br>	<!--空行-->
+				<footer>中国移动-网络常见问题服务指南</footer>	<!--底部文字-->
+			</div>
+			<div class="layui-tab-item">
+				<div class="main">
+					<div>
+						<div style="text-align: center;">
+							<div>
+								<h3>一、互联网电视无信号、卡顿怎么办</h3>	<!--小标题-->
+							</div>
+							<div class="box" onclick="window.open('video/安卓开启volte.mp4','_self')">	<!--链接到视频-->
+
+								xxxxxx	<!--按钮名称-->
+
+							</div>
+
+						</div>
+					</div>
+
+
+				</div>
+				<br>	<!--空行-->
+				<br>	<!--空行-->
+				<footer>中国移动-网络常见问题服务指南</footer>	<!--底部文字-->
 			</div>
 		</div>
-		<br>	<!--空行-->
-		<br>	<!--空行-->
-		<footer>中国移动-网络常见问题服务指南</footer>	<!--底部文字-->
+	</div>
+
+
+
+
+	<script src="https://cdn.bootcdn.net/ajax/libs/layui/2.6.8/layui.min.js" charset="utf-8"></script>
+	<script>
+		layui.use('element', function(){
+			var $ = layui.jquery
+					,element = layui.element; //Tab的切换功能，切换事件监听等，需要依赖element模块
+
+			//触发事件
+			var active = {
+				tabAdd: function(){
+					//新增一个Tab项
+					element.tabAdd('demo', {
+						title: '新选项'+ (Math.random()*1000|0) //用于演示
+						,content: '内容'+ (Math.random()*1000|0)
+						,id: new Date().getTime() //实际使用一般是规定好的id，这里以时间戳模拟下
+					})
+				}
+				,tabDelete: function(othis){
+					//删除指定Tab项
+					element.tabDelete('demo', '44'); //删除：“商品管理”
+
+
+					othis.addClass('layui-btn-disabled');
+				}
+				,tabChange: function(){
+					//切换到指定Tab项
+					element.tabChange('demo', '22'); //切换到：用户管理
+				}
+			};
+
+			$('.site-demo-active').on('click', function(){
+				var othis = $(this), type = othis.data('type');
+				active[type] ? active[type].call(this, othis) : '';
+			});
+
+			//Hash地址的定位
+			var layid = location.hash.replace(/^#test=/, '');
+			element.tabChange('test', layid);
+
+			element.on('tab(test)', function(elem){
+				location.hash = 'test='+ $(this).attr('lay-id');
+			});
+			
+
+		});
+		
+	</script>
+	
 	</body>
 </html>
 
